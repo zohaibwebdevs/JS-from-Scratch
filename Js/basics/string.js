@@ -16,3 +16,17 @@ console.log(str.toUpperCase());
 
 console.log(newStr.toLowerCase());
 
+// comparing operater
+
+let a = "1";
+let b = "2";
+
+if(a < b) {
+    console.log("a is less than b");
+} else{
+    console.log("a is greater than b");
+}
+
+console.log(String.fromCharCode(189, 43, 190, 61));
+
+console.log(String.fromCodePoint(1999, 123, 98, 63));
